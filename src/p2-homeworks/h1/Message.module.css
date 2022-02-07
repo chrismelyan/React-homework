@@ -1,0 +1,55 @@
+.container {
+    background-color: beige;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container img {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    border-radius: 30px;
+}
+
+.bubble {
+    position: relative;
+    height: 70px;
+    width: 250px;
+    margin-left: 5px;
+    background-color: darkgreen;
+    border-radius: 20px 20px 20px 0;
+}
+
+.bubble::before {
+    content: "";
+    position: absolute;
+
+    background-color: transparent;
+    left: -50px;
+    bottom: 0;
+    height: 25px;
+    width: 50px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 20px 0 0 0 darkgreen;
+}
+.name {
+    color: greenyellow;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 5px;
+    text-align: left;
+}
+.message {
+    color: white;
+    margin-left: 30px;
+    text-align: left;
+}
+.time {
+    color: limegreen;
+    font-size: small;
+    padding-bottom: 15px;
+    margin-right: 20px;
+    text-align: right;
+}
+
