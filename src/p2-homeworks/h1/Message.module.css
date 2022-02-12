@@ -1,21 +1,21 @@
 .container {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
+    margin: 10px;
 }
 
-.container img {
-    width: 60px;
-    height: 60px;
-    margin: 15px;
-    border-radius: 30px;
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 .bubble {
     position: relative;
-    height: 70px;
-    width: 250px;
-    margin-left: 5px;
+    height: 50px;
+    width: 200px;
+    margin-left: 15px;
+    padding: 15px;
     background-color: darkgreen;
     border-radius: 20px 20px 20px 0;
 }
@@ -35,20 +35,16 @@
 .name {
     color: greenyellow;
     font-weight: bold;
-    margin-left: 30px;
-    padding: 5px;
     text-align: left;
 }
 .message {
     color: white;
-    margin-left: 30px;
     text-align: left;
+    word-wrap: break-word;
 }
 .time {
     color: limegreen;
     font-size: small;
-    padding-bottom: 15px;
-    margin-right: 20px;
     text-align: right;
 }
 

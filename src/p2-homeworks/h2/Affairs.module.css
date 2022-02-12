@@ -1,3 +1,20 @@
-.someClass {
+.button {
+    background: green;
+    color: lime;
+    font-weight: bold;
+    margin: 10px;
+    width: 60px;
+}
+
+.affairs {
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 40px;
+}
+
+.block {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 110px 110px 110px;
 
 }
