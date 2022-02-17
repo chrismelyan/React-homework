@@ -4,12 +4,28 @@
     font-weight: bold;
     margin: 10px;
     width: 60px;
+    outline: none;
 }
 
-.affairs {
-    padding: 10px;
-    display: grid;
-    grid-template-rows: 40px;
+.button:active {
+    background: limegreen;
+}
+
+.button:focus {
+    background: limegreen;
+}
+
+.active {
+    background: limegreen;
+}
+
+.affair {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
 }
 
 .block {
@@ -17,4 +33,16 @@
     display: grid;
     grid-template-columns: 110px 110px 110px;
 
+}
+
+.high {
+    color: darkred;
+}
+
+.middle {
+    color: orangered;
+}
+
+.low {
+    color: green;
 }

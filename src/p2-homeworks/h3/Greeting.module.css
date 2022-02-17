@@ -1,7 +1,24 @@
 .someClass {
-
+    border: 1px solid darkolivegreen;
 }
 
+.someClass:focus {
+    border: 2px solid darkgreen;
+    outline: none;
+}
 .error {
-    border: 1px solid red;
+    border: 2px solid red;
+    outline: none;
+}
+
+.errorText {
+    margin-left: 10px;
+    font-size: x-small;
+    color: red;
+}
+
+.totalUsers {
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 5px;
 }
