@@ -12,7 +12,7 @@ function HW4() {
         if (error) {
             alert('введите текст...')
         } else {
-            alert(text) // если нет ошибки показать текст
+            alert('ошибки нет') // если нет ошибки показать текст
         }
     }
 
@@ -30,7 +30,7 @@ function HW4() {
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    // spanClassName={s.testSpanError}
+                    spanClassName={s.testSpanError}
                 />
 
                 <SuperInputText
@@ -39,8 +39,8 @@ function HW4() {
 
                 {/*----------------------------------------------------*/}
 
-                <SuperButton>
-                    default
+                <SuperButton className={s.style}>
+                    add
                 </SuperButton>
 
                 <SuperButton
@@ -60,11 +60,16 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                    one checkbox {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
-                <SuperCheckbox checked={checked} onChange={testOnChange}/>
+                <SuperCheckbox
+                    checked={checked}
+                    onChange={testOnChange}
+                >
+                    the other checkbox
+                </SuperCheckbox>
             </div>
 
             <hr/>

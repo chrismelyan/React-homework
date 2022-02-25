@@ -1,5 +1,6 @@
 import React, {ChangeEvent, MouseEvent, KeyboardEvent} from 'react'
 import s from './Greeting.module.css'
+import SuperInputText from "../h4/common/c1-SuperInputText/SuperInputText";
 
 type GreetingPropsType = {
     name: string // need to fix any
@@ -18,6 +19,7 @@ const Greeting: React.FC<GreetingPropsType> = (
 
     return (
         <div>
+            <SuperInputText value={name} onChange={setNameCallback} onKeyPress={pressEnter}/>
             <input
                 value={name}
                 onChange={setNameCallback}

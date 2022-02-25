@@ -1,5 +1,8 @@
 .superInput {
-
+    border: none;
+    background: hsl(0 0% 93%);
+    border-radius: .25rem;
+    padding: .75rem 1rem;
 }
 
 .errorInput {

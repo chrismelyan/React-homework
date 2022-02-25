@@ -1,7 +1,11 @@
 .default {
-
+    background: darkgray;
 }
 
 .red {
     background: red;
+}
+
+.style {
+    background-color: darkred;
 }
