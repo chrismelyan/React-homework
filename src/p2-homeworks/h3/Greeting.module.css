@@ -1,12 +1,20 @@
-.someClass {
+.greeting {
+    display: flex;
+    align-items: flex-start;
+}
+
+.input {
+    margin: 10px;
     border: 1px solid darkolivegreen;
 }
 
-.someClass:focus {
+.input:focus {
     border: 2px solid darkgreen;
     outline: none;
 }
+
 .error {
+    margin: 10px;
     border: 2px solid red;
     outline: none;
 }
@@ -15,10 +23,24 @@
     margin-left: 10px;
     font-size: x-small;
     color: red;
+    height: 20px;
 }
 
 .totalUsers {
     font-weight: bold;
     font-size: medium;
-    margin-left: 5px;
+    margin: 10px;
+}
+
+.button {
+    background: green;
+    color: lime;
+    font-weight: bold;
+    margin: 10px;
+    width: 50px;
+    outline: none;
+}
+
+.button:disabled {
+    color: darkgreen;
 }

@@ -24,10 +24,9 @@ function HW3() {
 
             {/*should work (должно работать)*/}
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
-            <ol>
-                {users.map(u => <li key={u._id}>{u.name}</li>)}
-            </ol>
-
+            {/*<ol>*/}
+            {/*    {users.map(u => <li key={u._id}>{u.name}</li>)}*/}
+            {/*</ol>*/}
             <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeGreeting/>*/}

@@ -5,7 +5,7 @@ import Message, {MessageType} from "./Message";
 const messageData: MessageType = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
     name: 'Chris',
-    message: 'Yeah! Nailed it!!!',
+    message: 'Ready to work hard?',
     time: '22:00'
 }
 
@@ -14,8 +14,6 @@ function HW1() {
         <div>
             <hr/>
             homeworks 1
-
-            should work (должно работать)
 
             <Message
                 avatar={messageData.avatar}
