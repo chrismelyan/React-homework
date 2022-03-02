@@ -10,9 +10,9 @@ function HW4() {
 
     const showAlert = () => {
         if (error) {
-            alert('введите текст...')
+            alert('Упс...ошибка!')
         } else {
-            alert('ошибки нет') // если нет ошибки показать текст
+            alert('Ошибки нет') // если нет ошибки показать текст
         }
     }
 
@@ -40,7 +40,7 @@ function HW4() {
                 {/*----------------------------------------------------*/}
 
                 <SuperButton className={s.style}>
-                    add
+                    default
                 </SuperButton>
 
                 <SuperButton
@@ -60,7 +60,7 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    one checkbox {/*// этот текст попадёт в children*/}
+                    week 1 {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
@@ -68,7 +68,7 @@ function HW4() {
                     checked={checked}
                     onChange={testOnChange}
                 >
-                    the other checkbox
+                    week 2
                 </SuperCheckbox>
             </div>
 

@@ -1,13 +1,22 @@
+.input:focus {
+    outline: none;
+    border: 2px solid limegreen;
+}
+
 .superInput {
-    border: none;
-    background: hsl(0 0% 93%);
-    border-radius: .25rem;
-    padding: .75rem 1rem;
+    background: floralwhite;
+    border-radius: 5px;
+    margin: 10px;
+    outline: none;
+    color: orangered;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border: 3px solid red;
+    background: floralwhite;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
 }
 
 .error {

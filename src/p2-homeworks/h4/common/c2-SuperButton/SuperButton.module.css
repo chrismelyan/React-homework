@@ -1,11 +1,16 @@
 .default {
-    background: darkgray;
+    background: green;
+    color: lime;
+    outline: none;
 }
 
 .red {
-    background: red;
+    background: darkred;
+    color: indianred;
 }
 
-.style {
-    background-color: darkred;
+.button {
+    font-weight: bold;
+    margin: 5px;
+    outline: none;
 }
