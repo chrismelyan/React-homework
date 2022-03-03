@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.link {
+    margin: 10px;
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.active {
+    color: darkred;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.errorPage {
+    text-align: center;
+    font-size: large;
+    color: darkred;
+}
+
+.errorPage img {
+    width: 100px;
+}

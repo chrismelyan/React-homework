@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header'
-import Rout from './Routes'
+import Body from "./Body";
 import {HashRouter} from "react-router-dom";
 
 function HW5() {
@@ -8,11 +8,8 @@ function HW5() {
         <div>
             {/*в gh-pages лучше работает HashRouter*/}
             <HashRouter>
-
-            <Header/>
-
-            <Rout/>
-
+                <Header/>
+                <Body/>
             </HashRouter>
         </div>
     )
