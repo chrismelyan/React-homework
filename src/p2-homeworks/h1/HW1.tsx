@@ -5,7 +5,7 @@ import Message, {MessageType} from "./Message";
 const messageData: MessageType = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
     name: 'Chris',
-    message: 'Ready to work hard?',
+    message: 'Nailed it!',
     time: '22:00'
 }
 

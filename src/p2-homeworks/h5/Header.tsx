@@ -9,9 +9,9 @@ function Header() {
             <NavLink to={'/pre-junior'} className={({isActive}) => (isActive ? s.active : s.link)}>PreJunior</NavLink>
             <NavLink to={PATH.JUNIOR} className={({isActive}) => (isActive ? s.active : s.link)}>Junior</NavLink>
             <NavLink to={PATH.JUNIOR_PLUS} className={({isActive}) => (isActive ? s.active : s.link)}>Junior +</NavLink>
-            {/*<NavLink to={'/error'} className={({isActive}) => (isActive ? s.active : s.link)}>Error</NavLink>*/}
+            <div className={s.square}> </div>
         </div>
     )
 }
 
-export default Header
+export default Header;
