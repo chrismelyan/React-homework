@@ -1,17 +1,32 @@
+.block {
+    width: 18px;
+    height: 18px;
+    margin: 10px;
+    background-color: darkred;
+}
+
 .nav {
     display: flex;
-    justify-content: flex-start;
+    width: 300px;
     margin: 10px;
-    transition: 1s;
+
+    transition-duration: 1s;
+    transform: translate(-250px);
 }
-/*.nav:hover{*/
-/*    transform: translateX(-100%);*/
-/*}*/
+
+.nav:hover {
+    transition-duration: 1s;
+    transform: translate(0);
+}
 
 .link {
     margin: 10px;
     text-decoration: none;
     color: darkslategrey;
+}
+
+.link:hover {
+    color: rebeccapurple;
 }
 
 .active {
