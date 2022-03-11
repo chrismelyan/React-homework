@@ -2,11 +2,11 @@ import React, {ChangeEvent, MouseEvent, KeyboardEvent} from 'react'
 import s from './Greeting.module.css'
 
 type GreetingPropsType = {
-    name: string // need to fix any
-    setNameCallback: (e: ChangeEvent<HTMLInputElement>) => void // need to fix any
-    addUser: (e: MouseEvent<HTMLButtonElement>) => void // need to fix any
-    error: string // need to fix any
-    totalUsers: number // need to fix any
+    name: string
+    setNameCallback: (e: ChangeEvent<HTMLInputElement>) => void
+    addUser: (e: MouseEvent<HTMLButtonElement>) => void
+    error: string
+    totalUsers: number
     pressEnter: (e: KeyboardEvent<HTMLInputElement>) => void
 }
 
@@ -14,7 +14,7 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers, pressEnter} // деструктуризация пропсов
 ) => {
-    const inputClass = error ? s.error : s.input // need to fix with (?:)
+    const inputClass = error ? s.error : s.input
 
     return (
         <div className={s.greeting}>

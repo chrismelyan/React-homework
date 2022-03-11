@@ -3,8 +3,8 @@ import Greeting from './Greeting'
 import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
-    users: UserType[] // need to fix any
-    addUserCallback: (name: string) => void // need to fix any
+    users: UserType[]
+    addUserCallback: (name: string) => void
 }
 
 // более простой и понятный для новичков
@@ -13,8 +13,8 @@ type GreetingContainerPropsType = {
 // более современный и удобный для про :)
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
-    const [name, setName] = useState<string>('') // need to fix any
-    const [error, setError] = useState<string>('') // need to fix any
+    const [name, setName] = useState<string>('')
+    const [error, setError] = useState<string>('')
 
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
         const trimmedName = e.currentTarget.value.trim()

@@ -1,22 +1,5 @@
-.button {
-    background: green;
-    color: lime;
-    font-weight: bold;
-    margin: 10px;
-    width: 60px;
-    outline: none;
-}
-
-.button:active {
-    background: limegreen;
-}
-
-.button:focus {
-    background: limegreen;
-}
-
 .active {
-    background: limegreen;
+    background: rgba(30, 250, 15, 0.25);
 }
 
 .affair {
@@ -24,25 +7,18 @@
 }
 
 .item {
-    margin: 10px;
-    width: 100px;
-}
-
-.block {
-    margin-left: 20px;
-    display: grid;
-    grid-template-columns: 110px 110px 110px;
-
+    margin: 10px 32px;
+    width: 80px;
 }
 
 .high {
-    color: darkred;
+    color: #6AFD3C;
 }
 
 .middle {
-    color: orangered;
+    color: #F4FA28;
 }
 
 .low {
-    color: green;
+    color: #FE1100;
 }

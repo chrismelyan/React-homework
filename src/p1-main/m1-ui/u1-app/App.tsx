@@ -5,13 +5,8 @@ import HW5 from "../../../p2-homeworks/h5/HW5";
 function App() {
     return (
         <div className={s.App}>
-            <h3>react homeworks:</h3>
-            {/*<HW1/>*/}
-            {/*<HW2/>*/}
-            {/*<HW3/>*/}
-            {/*<HW4/>*/}
+            <h2>REACT HOMEWORK</h2>
             <HW5/>
-
         </div>
     )
 }

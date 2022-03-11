@@ -4,8 +4,16 @@
 }
 
 .input {
-    margin: 10px;
-    border: 1px solid darkolivegreen;
+    font-family: inherit;
+    width: 300px;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
 }
 
 .input:focus {
@@ -32,15 +40,3 @@
     margin: 10px;
 }
 
-.button {
-    background: green;
-    color: lime;
-    font-weight: bold;
-    margin: 10px;
-    width: 50px;
-    outline: none;
-}
-
-.button:disabled {
-    color: darkgreen;
-}
