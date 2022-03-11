@@ -1,8 +1,9 @@
 .superInput {
     font-family: inherit;
-    width: 300px;
+    width: 250px;
+    margin: 10px;
     border: 0;
-    border-bottom: 2px solid #9b9b9b;
+    border-bottom: 2px solid rgba(27, 253, 156, 0.5);
     outline: 0;
     font-size: 1.3rem;
     color: #fff;
@@ -13,64 +14,32 @@
 
 .input:focus {
     outline: none;
-    border: 2px solid limegreen;
-}
-
-.errorInput {
-    border: 3px solid red;
-    background: floralwhite;
-    border-radius: 5px;
-    outline: none;
+    border: 2px solid #1BFD9C;
     margin: 10px;
-}
-
-.error {
-    color: red;
-}
-
-
-.form__group {
-    position: relative;
-    padding: 15px 0 0;
-    margin-top: 10px;
-    width: 50%;
-}
-
-.form__field {
     font-family: inherit;
-    width: 100%;
-    border: 0;
-    border-bottom: 2px solid #9b9b9b;
-    outline: 0;
+    width: 246px;
     font-size: 1.3rem;
     color: #fff;
     padding: 7px 0;
     background: transparent;
     transition: border-color 0.2s;
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
 }
 
-.form__label {
-    position: absolute;
-    top: 0;
-    display: block;
-    transition: 0.2s;
-    font-size: 1rem;
-    color: #9b9b9b;
+.errorInput {
+    outline: none;
+    border: 2px solid red;
+    font-family: inherit;
+    width: 246px;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    margin: 10px;
+    box-shadow: inset 0 0 10px rgba(238, 18, 18, 0.6), 0 0 9px 3px rgba(152, 35, 35, 0.3);
 }
 
-.form__field:focus {
-    padding-bottom: 6px;
-    font-weight: 700;
-    border-width: 3px;
-    border-image: linear-gradient(to right, #11998e, #38ef7d);
-}
-
-.form__label:focus {
-    position: absolute;
-    top: 0;
-    display: block;
-    transition: 0.2s;
-    font-size: 1rem;
-    color: #11998e;
-    font-weight: 700;
+.error {
+    color: red;
 }

@@ -19,7 +19,7 @@ function HW3() {
     return (
         <div>
             <hr/>
-            Homeworks 3
+            <h4>Homework 3</h4>
 
             <GreetingContainer
                 users={users}

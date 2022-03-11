@@ -6,13 +6,13 @@ import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 
 function HW4() {
     const [text, setText] = useState<string>('')
-    const error = text ? '' : 'error'
+    const error = text ? '' : 'please enter a name'
 
     const showAlert = () => {
         if (error) {
-            alert('Упс...ошибка!')
+            alert('Oops ... something went wrong!')
         } else {
-            alert('Ошибки нет') // если нет ошибки показать текст
+            alert('Your name is confirmed!')
         }
     }
 
@@ -22,7 +22,7 @@ function HW4() {
     return (
         <div>
             <hr/>
-            homeworks 4
+            <h4>Homework 4</h4>
 
             <div className={s.column}>
                 <SuperInputText
@@ -60,7 +60,7 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    week 1 {/*// этот текст попадёт в children*/}
+                    month 1 {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
@@ -68,7 +68,7 @@ function HW4() {
                     checked={checked}
                     onChange={testOnChange}
                 >
-                    week 2
+                    month 2
                 </SuperCheckbox>
             </div>
 

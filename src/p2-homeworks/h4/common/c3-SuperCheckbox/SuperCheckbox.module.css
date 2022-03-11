@@ -1,26 +1,25 @@
 .label {
     display: flex;
     align-items: center;
-    cursor: pointer;
+    margin-top: 10px;
 }
 
 .checkbox {
     appearance: none;
+    cursor: pointer;
     width: 20px;
     height: 20px;
     margin-right: 10px;
-    background: forestgreen;
-    border: 1px solid darkgreen;
+    background: rgba(27, 253, 156, 0.4);
+    border: 1px solid rgba(27, 253, 156, 0.1);
+    border-radius: 5px;
 }
 
 .checkbox:checked {
     appearance: none;
-    background-color: orangered;
+    background-color: rgba(238, 18, 18, 0.6);
 }
 
 .checkbox:focus {
-    outline: 3px solid mediumseagreen;
-}
-.spanClassName {
-
+    outline: 2px solid #1BFD9C;
 }
