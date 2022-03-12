@@ -55,15 +55,9 @@
 
 .errorPage {
     text-align: center;
-    margin: 70px;
-    font-size: 40px;
-    font-weight: bold;
-    color: darkred;
-    line-height: 2em;
 }
 
 .errorPage img {
-    width: 300px;
-    margin: 30px;
-    border: 3px solid indianred;
+    width: 800px;
+    border: 15px solid indianred;
 }
