@@ -1,7 +1,3 @@
-.default {
-    background: rgba(130, 255, 201, 0.4);
-}
-
 .red {
     color: red;
     border: 2px solid red;
@@ -35,6 +31,8 @@ button {
 button:hover {
     color: #82ffc9;
     box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+    transition-duration: 1s;
+    background: rgba(130, 255, 201, 0.2);
 }
 
 button:before {
