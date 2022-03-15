@@ -1,4 +1,6 @@
 .spanClass {
+    display: inline-block;
+    height: 62px;
     font-weight: bold;
     font-size: 22px;
     transition-duration: 0.6s;
@@ -20,5 +22,5 @@
 }
 
 button {
-    margin-top: 15px;
+    margin-top: 5px;
 }
