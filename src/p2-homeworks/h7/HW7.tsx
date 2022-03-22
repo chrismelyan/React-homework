@@ -11,7 +11,7 @@ function HW7() {
     return (
         <div>
             <hr/>
-            <h4>Homeworks 7</h4>
+            <h4>Homework 7</h4>
 
             <div>
                 <SuperSelect

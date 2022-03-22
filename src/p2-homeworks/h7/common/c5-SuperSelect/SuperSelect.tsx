@@ -23,7 +23,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
         onChange && onChange(e);
 
         onChangeOption &&
-        onChangeOption(e.target.value)
+        onChangeOption(e.currentTarget.value)
     }
 
     return (
