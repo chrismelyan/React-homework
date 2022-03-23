@@ -1,0 +1,9 @@
+.block {
+    display: flex;
+}
+
+.item {
+    width: 80px;
+    margin: 0 30px 10px 30px;
+    font-size: 20px;
+}
