@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {checkAC, homeWorkReducer, sortDownAC, sortUpAC} from './bll/homeWorkReducer'
+import {homeWorkReducer} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import s from './HW8.module.css'
 
@@ -23,15 +23,15 @@ function HW8() {
 
 
     const finalPeople = people.map((p: UserType) => (
-        <div className={s.block} key={p._id}>
-            <span className={s.item}>{p.name}</span>
-            <span className={s.item}>{p.age}</span>
+        <div className={s.item} key={p._id}>
+            <span>{p.name}</span>
+            <span>{p.age}</span>
         </div>
     ))
 
-    const sortUp = () => setPeople(homeWorkReducer(initialPeople, sortUpAC()));
-    const sortDown = () => setPeople(homeWorkReducer(initialPeople, sortDownAC()));
-    const check18 = () => setPeople(homeWorkReducer(initialPeople, checkAC(18)));
+    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}));
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'down'}));
+    const check18 = () => setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 18}));
 
     return (
         <div>
@@ -43,7 +43,7 @@ function HW8() {
             <div>
                 <SuperButton onClick={sortUp}>sort up</SuperButton>
                 <SuperButton onClick={sortDown}>sort down</SuperButton>
-                <SuperButton onClick={check18}>check 18</SuperButton>
+                <SuperButton onClick={check18}>18+</SuperButton>
             </div>
 
             <hr/>

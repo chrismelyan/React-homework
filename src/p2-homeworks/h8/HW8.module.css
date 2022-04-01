@@ -1,9 +1,8 @@
-.block {
-    display: flex;
-}
-
 .item {
-    width: 80px;
-    margin: 0 30px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-left: 10px;
     font-size: 20px;
+    line-height: 35px;
 }
