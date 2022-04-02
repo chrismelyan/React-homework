@@ -7,12 +7,8 @@ function HW9() {
             <hr/>
             <h4>Homework 9</h4>
 
-            {/*should work (должно работать)*/}
             <Clock/>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeClock/>*/}
             <hr/>
         </div>
     )

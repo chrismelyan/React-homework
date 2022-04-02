@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0ff;
+    box-shadow: 0 0 20px #0ff;
+    padding: 20px;
+    margin-left: 40px;
+    width: 150px;
+    border-radius: 55px;
+}
+
+.time {
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 14px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.timeGlow {
+    transition-duration: 0.6s;
+}
+
+.timeGlow:hover {
+    transition-duration: 0.6s;
+    color: #fff;
+    text-shadow:
+            0 0 5px #82ffc9,
+            0 0 10px #82ffc9,
+            0 0 20px #0ff
+}
+
+.date {
+    color: #FE1100;
+    font-style: italic;
+    margin-top: 5px;
+    font-size: 14px;
+}
