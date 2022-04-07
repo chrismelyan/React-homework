@@ -21,3 +21,9 @@ h4 {
     color: #1BFD9C;
     margin-top: 10px;
 }
+
+.centralContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
