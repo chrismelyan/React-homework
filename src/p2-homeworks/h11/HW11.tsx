@@ -6,31 +6,31 @@ function HW11() {
     const [value1, setValue1] = useState(0)
     const [value2, setValue2] = useState(100)
 
+    const onDoubleRange = (value: [val1: number, val2: number]) => {
+        const [val1, val2] = value
+        setValue1(val1)
+        setValue2(val2)
+    }
     return (
         <div>
             <hr/>
-            homeworks 11
+            <h4>Homework 11</h4>
 
-            {/*should work (должно работать)*/}
             <div>
-                <span>{value1}</span>
+                {/*<span>{value1}</span>*/}
                 <SuperRange
-                    // сделать так чтоб value1 изменялось
+                    onChangeRange={setValue1}
                 />
             </div>
 
             <div>
                 <span>{value1}</span>
                 <SuperDoubleRange
-                    // сделать так чтоб value1 и value2 изменялось
+                    onChangeRange={onDoubleRange}
                 />
-                <span>{value2}</span>
+                {/*<span>{value2}</span>*/}
             </div>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperRange/>*/}
-            {/*<AlternativeSuperDoubleRange/>*/}
             <hr/>
         </div>
     )

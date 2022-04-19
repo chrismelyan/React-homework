@@ -1,6 +1,8 @@
-import React from 'react'
+import React, {DetailedHTMLProps, InputHTMLAttributes} from 'react'
 
-type SuperDoubleRangePropsType = {
+type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
+
+type SuperDoubleRangePropsType = DefaultInputPropsType & {
     onChangeRange?: (value: [number, number]) => void
     value?: [number, number]
     // min, max, step, disable, ...
