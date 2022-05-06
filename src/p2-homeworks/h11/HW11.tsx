@@ -22,11 +22,14 @@ function HW11() {
             <h4>Homework 11</h4>
 
             <div>
+                <div>
                 <span>{min}</span>
+                <span style={{marginLeft: '280px'}}>{max}</span>
+                </div>
                 <SuperRange
                     onChangeRange={onChangeRange}
+                    value={min}
                 />
-                <span>{max}</span>
             </div>
 
             <div style={{marginLeft: '10px'}}>
@@ -36,7 +39,7 @@ function HW11() {
                     max={max}
                 />
                 <span>{min}</span>
-                <span style={{marginLeft: '180px'}}>{max}</span>
+                <span style={{marginLeft: '280px'}}>{max}</span>
             </div>
 
             <hr/>
