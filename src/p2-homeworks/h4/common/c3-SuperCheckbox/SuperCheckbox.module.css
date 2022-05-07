@@ -10,14 +10,15 @@
     width: 20px;
     height: 20px;
     margin-right: 10px;
-    background: rgba(27, 253, 156, 0.4);
-    border: 1px solid rgba(27, 253, 156, 0.1);
+    background: rgba(27, 253, 156, 0.1);
+    border: 1px solid rgba(27, 253, 156, 0.4);
     border-radius: 5px;
 }
 
 .checkbox:checked {
     appearance: none;
-    background-color: rgba(238, 18, 18, 0.6);
+    background: url('./img/pngwing.com.png');
+    background-size: 20px;
 }
 
 .checkbox:focus {
