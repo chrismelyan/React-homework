@@ -8,10 +8,6 @@ function HW13() {
             <hr/>
             <h4>Homework 13</h4>
 
-
-
-
-
             <Request/>
 
             <hr/>
