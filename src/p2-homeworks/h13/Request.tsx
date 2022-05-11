@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import SuperCheckbox from "../h4/common/c3-SuperCheckbox/SuperCheckbox";
+import SuperCheckbox from '../h4/common/c3-SuperCheckbox/SuperCheckbox';
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import {requestsAPI} from "./RequestsAPI";
 

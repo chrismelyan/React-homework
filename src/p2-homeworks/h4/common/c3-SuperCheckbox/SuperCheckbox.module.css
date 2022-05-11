@@ -17,7 +17,7 @@
 
 .checkbox:checked {
     appearance: none;
-    background: url('./img/pngwing.com.png');
+    background: url('./img/checked.png');
     background-size: 20px;
 }
 
